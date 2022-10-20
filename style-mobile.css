@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+/*For Mobile*/
+[class*="col-"]{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation Bar Design Strats From Here */
+.nav-bar{
+    text-align: center;
+    border-bottom: 2px solid black
+}
+.nav-title h1{
+    padding-top: 30px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.nav-menu a{
+    margin: 10px 0px ;
+    padding: 10px 5px;
+    border: 3px solid rgb(0, 36, 37);
+    border-radius: 10px;
+    background-color: rgb(14, 140, 145);
+}
+.nav-menu a:Hover{
+    background-color: gray;
+    text-decoration: none;
+    font-weight: normal;
+}
+/* Navigation Bar Design Ends Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Profile Design Starts From Here */
+.profile{
+    margin: 0;
+    margin-top: 20px;
+    border-top: none;
+    border-bottom: none;  
+}
+.profile img{
+    height: 100px;
+    width: 100px;
+}
+.Img-1:hover, .Img-2:hover{
+    height: 120px;
+    width: 120px;
+}
+.Img-1{
+    top: 0px;
+    right: 0px;
+}
+.Img-2{
+    top: 530px;
+    left: 0px;
+}
+.desc{
+    height: 350px;
+    padding: 20px 0px;
+}
+.desc h1{
+    font-size: 35px;
+}
+.desc p{
+    width: 90%;
+    font-size: 17px;
+    margin-top: 35px;
+}
+/* Profile Design Ends Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Me Design Starts From Here */
+.about-me h2{
+    font-size: 35px;
+}
+.about-me{
+    margin: 10px 0px;
+}
+.my-photo img{
+    height: 230px;
+    width: 230px;
+    margin-top: 20px;
+}
+.about-me-desc p{
+    font-size: large;
+    padding: 15px;
+}
+/* About Me Design Ends Here */
+
+/* Professional Background Design Starts From Here */
+.card{
+    height: auto;
+}
+.professional-background{
+    padding: 20px;
+    height: auto;
+}
+
+.card-desc ol li{
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+#edu-card-2 ol li{
+    margin-left: 20px;
+}
+#edu-card-2 ol{
+    padding-bottom: 20px;
+}
+/* Professional Background Design Ends Here */
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Me Design Starts From Here */
+.com{
+    margin-bottom: 20px;
+}
+.com h2{
+    font-size: 38px;
+}
+.achivements ul{
+    padding: 10px;
+    font-size: 18px;
+}
+.achivements li{
+    margin: 0px 40px;
+    line-height: 1.5;
+}
+.text{
+    height: 50px;
+    width: 350px;
+    display: block;
+    margin: 15px auto;
+
+}
+textarea{
+    width: 350px;
+    height: 330px;
+    resize: none;
+    overflow: auto;
+    display: block;
+    margin: 15px auto;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    margin: 5px 25px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.contact form{
+    margin-bottom: 60px;
+}
+.contact-links{
+    margin-top: 30px;
+}
+.contact-button .med-btn{
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    margin: 30px 3px;
+}
+.contact-button p{
+    display: inline;      
+}
+/* Contact Me Design Ends Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Design Strats From Here */
+footer{
+    height: auto;
+}
+.footer-menu a{
+    display: block;
+}
+.footer-desc{
+    padding:30px 30px;
+}
+/* Footer Design Ends Here */
